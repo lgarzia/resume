@@ -2,8 +2,11 @@
 requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
+[tool.flit.module]
+name = "resume" # import resume
+
 [project]
-name = "luke_resume"
+name = "luke-resume" #As in pip install luke-resume
 authors = [{name = "Luke Garzia", email = "garzia.luke@gmail.com"}]
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
@@ -12,8 +15,9 @@ readme = "README.md"
 requires-python = ">=3.7"
 dependencies = ['typer']
 
+
 [project.urls]
-Home = "https://github.com/lgarzia/luke_resume"
+Home = "https://github.com/lgarzia/resume"
 
 [project.scripts]
 luke     = "resume.__main__:main" #luke command will can the main() in __main__.py
