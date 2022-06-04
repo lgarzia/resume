@@ -1,3 +1,9 @@
 # boilerplate examples exists
 venv
+*.pyc
+*.pytest_cache/
+*.mypy_cache/
+
 *text.txt
+
+docs/build
