@@ -71,5 +71,7 @@ def open_resume(method: str = "pdf"):
         webbrowser.open_new(path)
     elif method == "web":
         typer.echo("Opening PDF on Github")
+        path = r"https://github.com/lgarzia/resume/blob/main/src/resume/_text/Luke_Garzia_Resume_202205.pdf"
+        webbrowser.open_new(path)
     else:
         raise ValueError("Unsupported method passed")
