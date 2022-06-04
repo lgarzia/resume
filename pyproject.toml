@@ -1,0 +1,21 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "luke_resume"
+authors = [{name = "Luke Garzia", email = "garzia.luke@gmail.com"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"] # description doc string of package
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = ['typer']
+
+[project.urls]
+Home = "https://github.com/lgarzia/luke_resume"
+
+[project.scripts]
+luke     = "resume.__main__:main" #luke command will can the main() in __main__.py
+resume = "resume.__main__:main"
+
