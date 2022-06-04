@@ -5,3 +5,5 @@ venv
 *.mypy_cache/
 
 *text.txt
+
+docs/build

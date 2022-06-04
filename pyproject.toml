@@ -24,7 +24,9 @@ luke     = "resume.__main__:main" #luke command will can the main() in __main__.
 resume = "resume.__main__:main"
 
 [project.optional-dependencies]
-test = ["mypy", "black", "flake8", "isort", "flake8-comprehensions", "pre-commit"]
+test = ["mypy", "black", "flake8", "isort", "flake8-comprehensions", "pre-commit",
+"pytest", "pytest-cov"]
+doc = ["sphinx", "myst-nb", "sphinx-rtd-theme", "sphinx-autoapi"]
 
 [tool.isort]
 multi_line_output = 3

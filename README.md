@@ -1,1 +1,1 @@
-# Luke's Resume Introductions :wave:
+# Luke's Resume Introductions
