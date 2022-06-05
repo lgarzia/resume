@@ -13,7 +13,7 @@ classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"] # description doc string of package
 readme = "README.md"
 requires-python = ">=3.7"
-dependencies = ['typer']
+dependencies = ['click >8.0.0', 'typer']
 
 
 [project.urls]
