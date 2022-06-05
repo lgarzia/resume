@@ -7,6 +7,7 @@ from resume._text.contact import get_contact
 
 
 def get_abridged() -> str:
+    """returns formatted text for abridged edition"""
     contact: str = get_contact()
     ABRIDGED.append(contact)
     return "\n".join(ABRIDGED)
