@@ -7,6 +7,8 @@ Specifically --- I wanted to turn the resume into a CLI app and post on pypi.
 [![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 
+[Additional Information on Read the docs](https://luke-resume.readthedocs.io/en/latest/)
+
 ## Installation
 
 ```shell
@@ -22,7 +24,7 @@ There two commands:
 
 ### Display resume in terminal
 
-Scroll through whole resume
+Scroll through the whole resume
 
 ```shell
 >> luke display-resume
@@ -44,7 +46,7 @@ View an abridged edition
 
 ### Open pdf version of resume
 
-Open full copy of resume
+Open the pdf version of the resume locally
 
 ```shell
 >>luke open-resume
@@ -52,4 +54,4 @@ Open full copy of resume
 
 ![Open PDF Resume](https://github.com/lgarzia/resume/blob/main/docs/source/_static/luke_open_resume.gif)
 
-Alternative is `luke open-resume --method web`
+Alternative is `luke open-resume --method web` to open version on GitHub
