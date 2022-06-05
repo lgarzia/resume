@@ -7,3 +7,5 @@ venv
 *text.txt
 
 docs/build
+
+dist
