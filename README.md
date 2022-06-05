@@ -1,8 +1,7 @@
 # Luke's Garzia Resume - CLI App
 
 This represents a weekend project to make writing a resume a tad more interesting.
-
-What follows is a weekend effort to turn a resume into a CLI app; learn a few things along the way.
+Specifically --- I wanted to turn the resume into a CLI app and post on pypi.
 
 ## Installation
 
@@ -12,6 +11,13 @@ What follows is a weekend effort to turn a resume into a CLI app; learn a few th
 
 ## Usage
 
+There two commands:
+
+- Display in terminal `luke display-resume`
+- Open pdf version of resume `luke open-resume`
+
+### Display resume in terminal
+
 Scroll through whole resume
 
 ```shell
@@ -20,12 +26,26 @@ Scroll through whole resume
 
 ![Display Resume Example](https://github.com/lgarzia/resume/blob/main/docs/source/_static/luke_full_resume.gif)
 
+## Additional flag is `--num-prev-jobs 3`
+
 View an abridged edition
 
 ```shell
->> luke display-resume
+>> luke display-resume --abridged
 ```
 
-https://github.com/lgarzia/resume/blob/main/docs/source/_static/luke_resume_abridged.gif
+![Display Abridged Resume](https://github.com/lgarzia/resume/blob/main/docs/source/_static/luke_display_abridged.gif)
 
-https://github.com/lgarzia/resume/blob/main/docs/source/_static/luke_open_resume.gif
+---
+
+### Open pdf version of resume
+
+Open full copy of resume
+
+```shell
+>>luke open-resume
+```
+
+![Open PDF Resume](https://github.com/lgarzia/resume/blob/main/docs/source/_static/luke_open_resume.gif)
+
+Alternative is `luke open-resume --method web`
