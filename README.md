@@ -30,7 +30,7 @@ Scroll through the whole resume
 >> luke display-resume
 ```
 
-![Display Resume Example](https://github.com/lgarzia/resume/blob/main/docs/source/_static/luke_full_resume.gif)
+![Display Resume Example](https://raw.githubusercontent.com/lgarzia/resume/main/docs/source/_static/luke_full_resume.gif)
 
 ## Additional flag is `--num-prev-jobs 3`
 
@@ -40,7 +40,7 @@ View an abridged edition
 >> luke display-resume --abridged
 ```
 
-![Display Abridged Resume](https://github.com/lgarzia/resume/blob/main/docs/source/_static/luke_display_abridged2.gif)
+![Display Abridged Resume](https://github.com/lgarzia/resume/raw/main/docs/source/_static/luke_display_abridged2.gif)
 
 ---
 
@@ -52,6 +52,6 @@ Open the pdf version of the resume locally
 >>luke open-resume
 ```
 
-![Open PDF Resume](https://github.com/lgarzia/resume/blob/main/docs/source/_static/luke_open_resume.gif)
+![Open PDF Resume](https://github.com/lgarzia/resume/raw/main/docs/source/_static/luke_open_resume.gif)
 
 Alternative is `luke open-resume --method web` to open version on GitHub
