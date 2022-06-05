@@ -20,6 +20,12 @@ Scroll through whole resume
 
 ![Display Resume Example](https://github.com/lgarzia/resume/blob/main/docs/source/_static/luke_full_resume.gif)
 
+View an abridged edition
+
+```shell
+>> luke display-resume
+```
+
 https://github.com/lgarzia/resume/blob/main/docs/source/_static/luke_resume_abridged.gif
 
 https://github.com/lgarzia/resume/blob/main/docs/source/_static/luke_open_resume.gif
