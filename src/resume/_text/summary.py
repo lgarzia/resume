@@ -9,6 +9,6 @@ SUMMARY = f"""{header}
 """
 
 
-def get_summary_section() -> str:
+def get_summary() -> str:
     """return formated summary test"""
     return SUMMARY
