@@ -1,8 +1,11 @@
 """Generates all text for career overview section"""
+# Standard library imports
+from typing import List
+
 # Third party imports
 import typer
 
-JOB_HISTORY: list[str] = []  # Assembled below
+JOB_HISTORY: List[str] = []  # Assembled below
 
 
 def get_career_overview(num_prev_jobs: int = 0) -> str:

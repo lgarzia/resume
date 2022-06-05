@@ -1,4 +1,7 @@
 """Generated text of high level bullet points """
+# Standard library imports
+from typing import List
+
 # Third party imports
 import typer
 
@@ -13,7 +16,7 @@ def get_abridged() -> str:
     return "\n".join(ABRIDGED)
 
 
-ABRIDGED: list[str] = []
+ABRIDGED: List[str] = []
 
 header = typer.style(
     "Past 5 job titles and timeframe", fg=typer.colors.GREEN, bold=True, italic=True

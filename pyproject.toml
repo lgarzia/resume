@@ -25,7 +25,7 @@ resume = "resume.__main__:main"
 
 [project.optional-dependencies]
 test = ["mypy", "black", "flake8", "isort", "flake8-comprehensions", "pre-commit",
-"pytest", "pytest-cov", "interrogate"]
+"pytest", "pytest-cov", "interrogate", "tox"]
 doc = ["sphinx", "myst-nb", "sphinx-rtd-theme", "sphinx-autoapi"]
 
 [tool.isort]
