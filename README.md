@@ -34,7 +34,7 @@ View an abridged edition
 >> luke display-resume --abridged
 ```
 
-![Display Abridged Resume](https://github.com/lgarzia/resume/blob/main/docs/source/_static/luke_display_abridged.gif)
+![Display Abridged Resume](https://github.com/lgarzia/resume/blob/main/docs/source/_static/luke_display_abridged2.gif)
 
 ---
 
