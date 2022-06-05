@@ -39,7 +39,7 @@ header = typer.style(
 text = """
     - Python Development
     - SQL Development
-    - Advance Analytics
+    - Advance Analytics & Data Mining
 """
 ABRIDGED.append(
     f"""{header}
@@ -54,9 +54,9 @@ header = typer.style(
     italic=True,
 )
 text = """
-    - Attribution Model Developement-> Mixture BigQuery & PySpark to develop elegant data model and framework tool
+    - Attribution Model Development-> Mixture BigQuery & PySpark to develop an elegant data model and framework tool
     - Airflow framework for Analyst -> simplified to time from development to deploy
-    - Designing from ground up an analytics environment for People Analytics -> Workday + Enterprise Data Science solution
+    - Designing from the ground up an analytics environment for People Analytics -> Workday + Enterprise Data Science solution
 """
 ABRIDGED.append(
     f"""{header}

@@ -25,7 +25,7 @@ def main() -> None:
 
 @app.command()
 def display_resume(abridged: bool = False, num_prev_jobs: int = 0):
-    """Print resume to Terminal full or abridged version
+    """Print the whole resume to the terminal or just an abridged version
 
     Example Usages:
     >> luke display-resume
@@ -33,7 +33,7 @@ def display_resume(abridged: bool = False, num_prev_jobs: int = 0):
     >> luke display-resume --num-prev-jobs 3
 
     Args:
-        abridged: if set shows a simple, high-level - scorecard
+        abridged: if set shows a simple, high-level - version
         num-prev-jobs: displays how many jobs to show - 0 means 'all'
     """
     typer.clear()

@@ -211,7 +211,7 @@ eb2 = {
       executives to monitor the key KPIs related to Banking Operations
     - Automated Executive and Operational (Self Service Model) dashboards using SSIS/Task Scheduler
     - Created a single entry point in SharePoint for the Executive to view metrics from Tableau Server, SSRS,
-      Excel, & SharePoint
+      Excel & SharePoint
     - Leveraged SSAS Time Series Forecasting model to predict application volumes to help with staffing
 """,
 }
