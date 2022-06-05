@@ -40,8 +40,8 @@ def build_career_template(
     """
     # Current Equifax Stint
     job_title = typer.style(job_title, fg=typer.colors.YELLOW, bold=True)
-    job_company = typer.style(job_company, fg=typer.colors.BLUE, italic=True)
-    job_date = typer.style(job_date, fg=typer.colors.BLUE, italic=True)
+    job_company = typer.style(job_company, fg=typer.colors.BRIGHT_CYAN, italic=True)
+    job_date = typer.style(job_date, fg=typer.colors.BRIGHT_CYAN, italic=True)
     return f"""{job_title} - {job_company} - {job_date}
         {job_description}
     """
@@ -113,8 +113,7 @@ efx_id = {
     - Designed and developed sales enablement dashboards for I9 services to help employers understand
       geographies where they may be out of compliance
     - Architected and implemented an automated data pipeline to enrich and extend Graduate Outcomes
-      product
-""",
+      product""",
 }
 JOB_HISTORY.append(build_career_template(**efx_id))
 
@@ -167,7 +166,7 @@ first_title = typer.style(
 first_date = typer.style("04/2017-07/2017", italic=True, fg=typer.colors.MAGENTA)
 
 dbs = {
-    "job_title": "Consultant, Information Analyst II",
+    "job_title": "Consultant, Information Analyst",
     "job_company": "Daugherty Business Solutions",
     "job_date": "04/2017-05/2019",
     "job_description": f"""
